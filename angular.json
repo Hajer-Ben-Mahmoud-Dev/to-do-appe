@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "to-do-appe"
+    }
+  },
+  "defaultProject": "to-do-appe",
+  "cli": {
+    "analytics": "7714b73f-aa69-4c76-b098-e51a71a1cdb7"
+  }
 }
