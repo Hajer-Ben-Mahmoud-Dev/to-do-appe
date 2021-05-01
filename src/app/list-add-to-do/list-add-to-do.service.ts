@@ -5,4 +5,7 @@ import { ToDoAppe } from './../model';
 })
 export class TodoListservice {
   listtodo:ToDoAppe[]=[];
+  AddToDoList(todo:ToDoAppe){
+    this.listtodo.push(todo)
+  }
 }

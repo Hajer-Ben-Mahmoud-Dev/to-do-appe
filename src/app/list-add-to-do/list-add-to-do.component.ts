@@ -14,5 +14,8 @@ todo: ToDoAppe= new ToDoAppe(' ',false);
 
   ngOnInit() {
   }
-
+SaveToDo(){
+  let todo= {} ;
+  this.todolistservice.AddToDoList(Object.assign(todo, this.todo))
+}
 }

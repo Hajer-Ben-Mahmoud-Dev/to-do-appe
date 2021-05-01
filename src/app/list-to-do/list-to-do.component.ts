@@ -1,3 +1,4 @@
+import { TodoListservice } from './../list-add-to-do/list-add-to-do.service';
 import { Component, OnInit } from '@angular/core';
 import { ToDoAppe } from '../model';
 
@@ -7,8 +8,11 @@ import { ToDoAppe } from '../model';
   styleUrls: ['./list-to-do.component.scss']
 })
 export class ListToDoComponent implements OnInit {
-listToDo: ToDoAppe[]=[];
-  constructor() { }
+  constructor(
+    public todolistservice: TodoListservice
+  ) {
+
+  }
 
   ngOnInit() {
   }
