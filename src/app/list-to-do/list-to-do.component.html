@@ -4,7 +4,7 @@
   <th>Done</th>
   </thead>
   <tbody>
-  <tr *ngFor = "let ToDo Of listToDo">
+  <tr *ngFor = "let ToDo Of todolistservice.listtodo">
   <td>{{ToDo.description}}</td>
   <td>{{ToDo.done}}</td>
   </tr>
